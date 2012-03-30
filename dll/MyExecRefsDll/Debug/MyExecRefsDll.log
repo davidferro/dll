@@ -1,0 +1,31 @@
+﻿Build started 3/30/2012 1:10:15 PM.
+     1>Project "F:\concole\dll\MyExecRefsDll\MyExecRefsDll.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MyExecRefsDll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\MyDynamicLibrary\ /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FUF:\concole\dll\MyDynamicLibrary\Debug\MyDynamicLibrary.dll /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt MyExecRefsDll.cpp stdafx.cpp /clr:nostdlib 
+         MyExecRefsDll.cpp
+         stdafx.cpp
+         Generating Code...
+         All outputs are up-to-date.
+       ManagedIncrementalBuildPostProcessDependencyGraph:
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'file:///E:\CONCOLE\DLL\MYDYNAMICLIBRARY\DEBUG\MYDYNAMICLIBRARY.DLL' or one of its dependencies. The system cannot find the file specified.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\concole\dll\MyDynamicLibrary\Debug\MyExecRefsDll.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\MyDynamicLibrary\Debug kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MyExecRefsDll.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\concole\dll\MyDynamicLibrary\Debug\MyExecRefsDll.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MyExecRefsDll.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         ..\MyDynamicLibrary\Debug\MyDynamicLibrary.lib
+         MyExecRefsDll.vcxproj -> F:\concole\dll\MyDynamicLibrary\Debug\MyExecRefsDll.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\concole\dll\MyDynamicLibrary\Debug\MyExecRefsDll.exe;#1" /manifest Debug\MyExecRefsDll.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\MyExecRefsDll.unsuccessfulbuild".
+         Touching "Debug\MyExecRefsDll.lastbuildstate".
+     1>Done Building Project "F:\concole\dll\MyExecRefsDll\MyExecRefsDll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.10

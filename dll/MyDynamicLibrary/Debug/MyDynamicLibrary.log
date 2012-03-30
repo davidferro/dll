@@ -1,0 +1,24 @@
+﻿Build started 3/30/2012 1:10:14 PM.
+     1>Project "F:\concole\dll\MyDynamicLibrary\MyDynamicLibrary.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MyDynamicLibrary.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\concole\dll\MyDynamicLibrary\Debug\MyDynamicLibrary.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MyDynamicLibrary.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\concole\dll\MyDynamicLibrary\Debug\MyDynamicLibrary.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\ForecastDll.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creating library F:\concole\dll\MyDynamicLibrary\Debug\MyDynamicLibrary.lib and object F:\concole\dll\MyDynamicLibrary\Debug\MyDynamicLibrary.exp
+         MyDynamicLibrary.vcxproj -> F:\concole\dll\MyDynamicLibrary\Debug\MyDynamicLibrary.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\concole\dll\MyDynamicLibrary\Debug\MyDynamicLibrary.dll;#2" /manifest Debug\MyDynamicLibrary.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\MyDynamicLibrary.unsuccessfulbuild".
+         Touching "Debug\MyDynamicLibrary.lastbuildstate".
+     1>Done Building Project "F:\concole\dll\MyDynamicLibrary\MyDynamicLibrary.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21

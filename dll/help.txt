@@ -1,0 +1,10 @@
+system.web
+.net
+
+system.net.HttpWebRequest
+
+HttpWebRequest class, not system.web
+
+http://msdn.microsoft.com/en-us/library/ms235636(v=vs.80).aspx
+
+http://msdn.microsoft.com/en-us/library/system.net.httpwebrequest.aspx
